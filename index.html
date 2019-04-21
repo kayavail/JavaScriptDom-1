@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Class</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        #square{
+            background: yellow;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="display_current_time">
+
+        </div>
+        <div id="square" onmouseover="changeColor()" onmouseout="reverseColor()">
+
+        </div>
+        <br>
+        <div>
+            <input type="text" value="John" class="col-4 form-control" placeholder="Enter Name">
+            <br>
+            <input type="password" value="12345678" class="col-4 form-control" placeholder="Enter Password">
+            <br>
+            <button class="btn btn-primary" type="button" onclick="showMessage()">Login</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>
